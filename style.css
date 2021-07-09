@@ -269,7 +269,8 @@ input:focus {
       color: #5EA6D6; }
     @media only screen and (max-width: 767px) {
       .section-heading h2 {
-        font-size: 24px; } }
+        font-size: 24px; 
+        margin-top: 30px;} }
   .section-heading.white h2,
   .section-heading.white p {
     color: #ffffff; }
@@ -588,9 +589,9 @@ input:focus {
           font-size: 40px; } }
       @media only screen and (max-width: 767px) {
         .single-welcome-slides .welcome-content h2 {
-          font-size: 25px; } }
+          font-size: 23px; } }
     .single-welcome-slides .welcome-content p {
-      color: #ffffff; }
+      color: #ffffff; font-size: 18px !important;}
 
 .breadcrumb-area {
   position: relative;
@@ -1873,9 +1874,21 @@ textarea.form-control {
 }
 @media (max-width:767px) /* mobile */
 {
+  .Quality_title{
+    width: fit-content !important;
+  }
+  .title_item{
+    font-size: 16px !important;
+  }
+  .classycloseIcon .cross-wrap {
+    width: 25px !important;
+    height: 50px !important;
+    cursor: pointer;
+    position: relative;
+}
   .logo
   {
-    height: 45px !important;
+    height: 60px !important;
   }
   .top
   {
@@ -2002,6 +2015,9 @@ textarea.form-control {
 
 @media (min-width:768px) and (max-width:991px)/* tablet  */
 {
+  .Quality_title{
+    width: fit-content !important;
+  }
   .logo
   {
     height: 60px !important;
@@ -2064,6 +2080,13 @@ textarea.form-control {
 
 @media (min-width:991px) and (max-width:1200px) /* laptop   */
 {
+  .logo {
+    height: 75px !important;
+    width: 230px !important;
+}
+  .Quality_title{
+    width: max-content !important
+  }
   .margin_par
   {
     margin: 45px 80px 0px 0px !important;
@@ -2095,6 +2118,9 @@ textarea.form-control {
 }
 @media (min-width:1200px) /*  desktop  */
 {
+  .Quality_title{
+    width: max-content !important
+  }
   .logo
   {
     height: 75px !important;

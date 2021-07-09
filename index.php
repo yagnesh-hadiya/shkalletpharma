@@ -11,7 +11,24 @@
             <div class="col-12 col-lg-10">
               <div class="welcome-content">
                 <h2 data-animation="fadeInDown" data-delay="250ms" >Welcome to Shkallet Pharma</h2>
-                <p data-animation="fadeInDown" data-delay="450ms" style="font-size: 22px !important;">One Source for a Seamless Experience</p>
+                <p data-animation="fadeInDown" data-delay="450ms" style="font-size: 22px !important;">The ultimate solution for your pharmaceutical need.</p>
+                <a href="contact.php" class="btn famie-btn mt-4" data-animation="bounceInDown" data-delay="600ms">Contact Us</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+
+      <!-- Single Welcome Slides -->
+      <div class="single-welcome-slides  bg-overlay " style="background-image: url(img/bg-img/slide2.jpg);">
+        <div class="container h-100">
+          <div class="row h-100 align-items-center">
+            <div class="col-12 col-lg-10">
+              <div class="welcome-content">
+                <h2 data-animation="fadeInDown" data-delay="200ms">Exceptional care close to you</h2>
+                <p data-animation="fadeInDown" data-delay="400ms" style="font-size: 22px !important; ">Quality we care, at affordable price</p>
                 <a href="contact.php" class="btn famie-btn mt-4" data-animation="bounceInDown" data-delay="600ms">Contact Us</a>
               </div>
             </div>
@@ -24,29 +41,15 @@
           <div class="row h-100 align-items-center">
             <div class="col-12 col-lg-10">
               <div class="welcome-content">
-                <h2 data-animation="fadeInDown" data-delay="200ms" style="width: max-content !important">Quality Delivered with Emotion of Care</h2>
-                <p data-animation="fadeInDown" data-delay="400ms" style="font-size: 22px !important;">We can deliver it</p>
+                <h2 class="Quality_title" data-animation="fadeInDown" data-delay="200ms">Exceptional care close to you</h2>
+                <p data-animation="fadeInDown" data-delay="400ms" style="font-size: 22px !important;">Believing in care, delivering quality.</p>
                 <a href="contact.php" class="btn famie-btn mt-4" data-animation="bounceInDown" data-delay="600ms">Contact Us</a>
               </div>
             </div>
           </div>
         </div>
       </div>
-
-      <!-- Single Welcome Slides -->
-      <div class="single-welcome-slides  bg-overlay " style="background-image: url(img/bg-img/slide2.jpg);">
-        <div class="container h-100">
-          <div class="row h-100 align-items-center">
-            <div class="col-12 col-lg-10">
-              <div class="welcome-content">
-                <h2 data-animation="fadeInDown" data-delay="200ms">Whatever be your </h2>
-                <p data-animation="fadeInDown" data-delay="400ms" style="font-size: 22px !important; ">Pharmaceutical Requirement</p>
-                <a href="contact.php" class="btn famie-btn mt-4" data-animation="bounceInDown" data-delay="600ms">Contact Us</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      
     </div>
   </div>
   <!-- ##### Hero Area End ##### -->
@@ -172,18 +175,18 @@
       <div class="row ">
         <div class="col-12 col-md-8">
           <div class="about-us-content mb-100 intro">
-            <p style="font-size: 17px !important;">  <b style="font-size: 20px;">Shkallet Pharma </b> is a leading Processor, Exporter & Importer of Pulses,Food Grains and other Agro Commoditites. With an experience of more than years in the industry, we are a leading brand in our product category trusted by our clients across the globe for our honest dealing.</p>
+            <p style="font-size: 17px !important;"> SHKALLET PHARMA is one of the leading Active Pharmaceutical Ingredients and Excipients Company in India. We specialize in sourcing various pharmaceutical products to meet our Partners requirement with all solutions at one place.  We recognize we are a partner with our customers to provide high quality products and services at a fair price.We hope to build reliability, trust, and friendships through honesty and integrity to ensure healthy long-term alliances. </p>
           </div>
         </div>  
         <div class="col-12 col-md-4 " >
-            <img src="img/bg-img/home1.png" alt="" style="width: 350px;height:240px;" class="intro_img">
+            <img src="img/bg-img/home1.png" alt="" style="width: 350px;height:240px;margin-top:40px" class="intro_img">
         </div>
       </div>
     </div>
   </section>
 
 <!-- ##### Newsletter Area Start ##### -->
-  <section class="newsletter-area bg-img bg-overlay jarallax product_padding" style="background-image: url('img/bg-img/mixer.jpeg');padding-bottom: 50px;padding-top: 100px;">
+  <section class="newsletter-area bg-img bg-overlay jarallax product_padding" style="padding-bottom: 50px;padding-top: 100px;background-color:aqua">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-12 col-lg-10">
@@ -191,10 +194,10 @@
             <!-- Section Heading -->
             <div class="section-heading white text-center">
               <p style="text-align: center;">What we do</p>
-              <h2><span>Our Produce</span> Is Mainstay For Us</h2>
-              <img src="img/core-img/decor2.png" alt="">
+              <h2><span>We at shkallet pharma </h2>
+              <img src="img/core-img/decor3.png" alt="">
             </div>
-            <p class="text-white mb-50 text-center" style="margin-top: 50px;font-size: 17px !important;margin-left: 50px;margin-right: 50px;">We have come a long way knowledge and zeal in the business ,making us one of the leaders in our products category.</p>
+            <p class="text-white mb-50 text-center" style="margin-top: 50px;font-size: 17px !important;margin-left: 50px;margin-right: 50px;">have come a long way knowledge and zeal in the business ,making us one of the leaders in our products category.</p>
           </div>
         </div>
       </div>

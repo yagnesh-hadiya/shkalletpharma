@@ -3,7 +3,7 @@
 <link rel="stylesheet" href="http://cdn.datatables.net/1.10.2/css/jquery.dataTables.min.css">
 
 <div class=" bg-img bg-overlay bg main-text" style="background-image: url('img/bg-img/wide2.jpg');height:100px; position: relative;width: 100%;">
-<h1>List of Api And Veterinary</h1>
+<h1 class="title_item">List of Api And Veterinary</h1>
 </div>
 <div class="famie-breadcrumb" style="padding-bottom: 0px !important;">
     <div style="padding-left: 60px;">
@@ -676,7 +676,9 @@
             <tr>
                 <td>Febantal</td>
             </tr>
-
+            <tr>
+                <td>Pimozide</td>
+            </tr>
             <tr>
                 <td>Febuxostat</td>
             </tr>

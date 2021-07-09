@@ -16,16 +16,17 @@
       text-align: justify;
     }
   </style>
-  
-   <!-- Global site tag (gtag.js) - Google Analytics -->
-<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-177849100-1"></script>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-87745RZESE"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'UA-177849100-1');
-</script> -->
+  gtag('config', 'G-87745RZESE');
+</script>
+  
 </head>
 
 <body>
@@ -50,14 +51,22 @@
                   <li><a href="about.php">About Us</a></li>
                   <li><a href="ListOfApiAndVeterinary.php">Products</a>
                     <ul class="dropdown">
-                      <li><a href="ListOfApiAndVeterinary.php">List Of Api's And Veterinary</a></li>
+                      <!-- <li><a href="ListOfApiAndVeterinary.php">List Of Api's And Veterinary</a></li>
                       <li><a href="ExcipientsSolventsIntermediates.php">Excipients, Solvents & Intermediates</a></li>
                       <li><a href="Pellets.php">Pellets</a></li>
                       <li><a href="DcGradeProducts.php">Dc Grade Products</a> </li>  
                       <li><a href="PackagingMaterials.php">Packaging Materials</a> </li>  
                       <li><a href="ColoursAndCoatingMaterials.php">Colours And Coating Materials</a> </li>  
                       <li><a href="FlavoursAndOils.php">Flavours And Oils</a> </li>  
-                      <li><a href="Nutraceuticals.php">Nutraceuticals</a> </li>  
+                      <li><a href="Nutraceuticals.php">Nutraceuticals</a> </li>   -->
+                      <li><a href="ListOfApiAndVeterinary.php">List Of Api's And Veterinary</a></li>
+                      <li><a href="ExcipientsSolventsIntermediates.php">Excipients, Solvents & Intermediates</a></li>
+                      <li><a href="Pellets.php">Pellets</a></li>
+                      <li><a href="#">Dc Grade Products</a> </li>  
+                      <li><a href="PackagingMaterials.php">Packaging Materials</a> </li>  
+                      <li><a href="#">Colours And Coating Materials</a> </li>  
+                      <li><a href="#">Flavours And Oils</a> </li>  
+                      <li><a href="#">Nutraceuticals</a> </li>  
                     </ul>
                   </li>
                   <li><a href="contact.php">Contact Us</a></li>

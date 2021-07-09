@@ -29,8 +29,7 @@
               <h2><span>Let Us</span> Tell You Our Story</h2>
               <img src="img/core-img/decor.png" alt="">
             </div>
-            <p>  The Foundation of Friends Enterprises, was laid by Our Founder Mr.Shyam  Hablani, in 2005, who has an experience of more than 35 years in the same industry. With a zeal to provide quality products to the society and the  curiosity to explore the market by imbibing information and thoroughly understanding the quality, types and sizes of various commodities. He went through a tough and adventurous journey from running a partnership to establishing his own firm which now generates a turnover of more than $7 Million Dollars.</p>
-            <p>We have come a long way owing to his meticulousness,knowledge and zeal in the business ,making us  one of the leaders in our products category.</p>
+            <p><b>SHKALLET PHARMA</b> is one of the leading Active Pharmaceutical Ingredients and Excipients Company in India. We specialize in sourcing various pharmaceutical products to meet our Partners requirement with all solutions at one place.  We recognize we are a partner with our customers to provide high quality products and services at a fair price.We hope to build reliability, trust, and friendships through honesty and integrity to ensure healthy long-term alliances. </p>
             <a href="contact.php" class="btn famie-btn mt-30">Contact Us</a>
           </div>
         </div>  
@@ -57,7 +56,7 @@
               <h2><span>Our</span> Vision</h2>
               <img src="img/core-img/decor2.png" alt="">
             </div>
-            <p>  Becoming a global powerhouse in agro-commodities by serving our customer through <b>continuous effort, innovation and evolution </b>, strengthened by our core values.
+            <p> We do not consider profit as the difference between revenue and expense. But the number of lives that have changed due to our products. Achieving customer satisfaction is fundamental to our organization.</p>
           </div>
         </div> 
       </div>
@@ -75,7 +74,7 @@
               <h2><span>Our</span> Mision</h2>
               <img src="img/core-img/decor2.png" alt="">
             </div>
-            <p>  Our mission is to generate high value addition for our clients by providing <b>great quality products and services to our customers by procuring quality produce from farmers </b>and supplying it fresh and on time to our clients.   
+            <p>  To dedicate ourselves to humanity’s quest for healthier, better and happier lives, through innovative healthcare products We wish to make a difference in society with better and affordable health products.   
             
           </div>
         </div>  
@@ -87,7 +86,8 @@
 
       </div>
     </div>
-  </section><section class="about-us-area" style="margin-top: 30px;">
+  </section>
+  <section class="about-us-area" style="margin-top: 30px;">
     <div class="container">
       <div class="row align-items-center ">
 
@@ -102,7 +102,7 @@
               <h2><span>Our</span> values</h2>
               <img src="img/core-img/decor2.png" alt="">
             </div>
-            <p>  Our values of dealing <b>honestly</b> with our clients, empowering our people to work with <b>dedication</b>, to maintain their <b>integrity</b> which leads to <b>innovation</b> in a sustainable way.
+            <p>  Our values of dealing honestly with our clients, empowering our people to work with dedication, to maintain their integrity which leads to innovation in a sustainable way.
             
           </div>
         </div>  
@@ -111,5 +111,30 @@
       </div>
     </div>
   </section>
+  <section class="about-us-area top" style="margin-top: 30px;">
+    <div class="container">
+      <div class="row align-items-center">
+
+        <!-- About Us Content -->
+        <div class="col-12 col-md-8">
+          <div class="about-us-content mb-100">
+            <!-- Section Heading -->
+            <div class="section-heading text-center">
+              <h2><span>Our</span> Team</h2>
+              <img src="img/core-img/decor2.png" alt="">
+            </div>
+            <p>  We have a team of highly motivated and qualified professionals with total commitments. Their talents and vast experiences enhance the quality of our environment and make <b>SHKALLET PHARMA </b>a great place to work.   
+            
+          </div>
+        </div>  
+
+        <div class="col-12 col-md-4 " >
+            <img src="img/bg-img/team.jpg" alt="" class="mission" style="height: 165px;width: 165px;float: right;">
+        </div>
+        
+
+      </div>
+    </div>
+  </section>  
   <!-- footer section ---- -->
 <?php include 'footer.php' ?>
