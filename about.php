@@ -29,7 +29,8 @@
               <h2><span>Let Us</span> Tell You Our Story</h2>
               <img src="img/core-img/decor.png" alt="">
             </div>
-            <p><b>SHKALLET PHARMA</b> is one of the leading Active Pharmaceutical Ingredients and Excipients Company in India. We specialize in sourcing various pharmaceutical products to meet our Partners requirement with all solutions at one place.  We recognize we are a partner with our customers to provide high quality products and services at a fair price.We hope to build reliability, trust, and friendships through honesty and integrity to ensure healthy long-term alliances. </p>
+            <p><b>SHKALLET PHARMA</b> would like to introduce ourself as one of the leading Active Pharmaceutical and Excipients Company in India. We specialize in sourcing various pharmaceutical products to meet our Partners requirement with all solutions at one place. Our Range of Products includes Active Pharmaceutical Ingredients (API), Excipients and Intermediates, Packaging Materials, Coating and Colours, DC granules, Pellets etc. We have developed strategic partnership with our manufacturing associates having state of art manufacturing facilities and the manufacturing processes are in compliance with WHO, GMP and FDA regulations, which has helped us to gain client's Trust for Quality and Consistency. </p>
+            <p>We recognize we are a partner with our customers to provide high quality products and services at a fair price. We hope to build reliability, trust, and friendships through honesty and integrity to ensure healthy long-term alliances.</p>
             <a href="contact.php" class="btn famie-btn mt-30">Contact Us</a>
           </div>
         </div>  

@@ -20,7 +20,7 @@
     <table id="myTable" class="table table-striped">
         <thead>
             <tr>
-                <th style="font-size: 21px;padding-left: 10px;">Excipients</th>
+                <th style="font-size: 21px;padding-left: 10px;">Excipients Solvents Intermediates</th>
             </tr>
         </thead>
         <tbody>

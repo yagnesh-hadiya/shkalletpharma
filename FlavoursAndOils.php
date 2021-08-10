@@ -19,7 +19,7 @@
     <table id="myTable" class="table table-striped">
         <thead>
             <tr>
-                <th style="font-size: 21px;padding-left: 10px;">Excipients</th>
+                <th style="font-size: 21px;padding-left: 10px;">Flavours And Oils</th>
             </tr>
         </thead>
         <tbody>

@@ -1,4 +1,7 @@
-<?php include 'header.php';?>
+<?php include 'header.php';
+require_once('connection.php');
+?>
+
   <div class=" bg-img bg-overlay bg" style="background-image: url('img/bg-img/wide2.jpg');height:100px;   ">
   </div>
   <div class="famie-breadcrumb">
@@ -51,6 +54,7 @@
               <i class="icon_mail_alt"></i>
             </div>
             <h5>Email</h5>
+            <h6>info@shkalletpharma.com</h6>
             <h6>shkalletpharma@gmail.com</h6>
           </div>
         </div>
@@ -76,16 +80,7 @@
               <h2><span>Get In Touch</span> With Us</h2>
               <img src="img/core-img/decor.png" alt="">
             </div>
-            <?php
-              $servername='localhost';
-              $username='root';
-              $password='';
-              $dbname = "frie_friends_enterprises";
-              $conn=mysqli_connect($servername,$username,$password,"$dbname");
-              if(!$conn){
-                 die('Could not Connect My Sql:' .mysql_error());
-              }
-              ?>
+            
             <!-- Contact Form Area -->
             <div class="contact-form-area">
               <form action="contact.php" method="post">
@@ -93,13 +88,16 @@
                 </div>
                 <div class="row">
                   <div class="col-lg-6">
-                    <input type="text" id="name" class="form-control" name="name" placeholder="Name" required>
+                    <input type="text" id="name" class="form-control" name="name" placeholder="Name of the person" required>
                   </div>
                   <div class="col-lg-6">
                     <input type="email" id="email" class="form-control" name="email" placeholder="Email" required>
                   </div>
                   <div class="col-12">
-                    <input type="text" id="mobileno" class="form-control" name="mobileno" placeholder="Mobile No" required>
+                    <input type="text" id="companyName" class="form-control" name="companyName" placeholder="Name of the company"  required>
+                  </div>
+                  <div class="col-12">
+                    <input type="text" id="mobileno" class="form-control" name="mobileno" placeholder="Mobile No" maxlength="10" minlength="6"  required>
                   </div>
                   <div class="col-12">
                     <textarea name="message" id="message" class="form-control" cols="30" rows="10" placeholder="Message" required></textarea>
@@ -116,17 +114,18 @@
               {  
                  $name = $_POST['name'];
                  $email = $_POST['email'];
+                 $companyName = $_POST['companyName'];
                  $mobileno = $_POST['mobileno'];
                  $message = $_POST['message'];
-                 $sql = "INSERT INTO contact_us (name,email,mobileno,message)
-                 VALUES ('$name','$email','$mobileno','$message')";
-                 if (mysqli_query($conn, $sql)) {
+                 $sql = "INSERT INTO contact_us (name,email,companyName,mobileno,message)
+                 VALUES ('$name','$email','$companyName','$mobileno','$message')";
+                 if (mysqli_query($con, $sql)) {
                   echo '<script>alert("Thank you ")</script>'; 
                  } else {
                   echo "Error: " . $sql . "
-              " . mysqli_error($conn);
+              " . mysqli_error($con);
                  }
-                 mysqli_close($conn);
+                 mysqli_close($con);
               }
               ?>
             </div>
